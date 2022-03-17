@@ -1,0 +1,1 @@
+# Allure_report_anytix_api_test
