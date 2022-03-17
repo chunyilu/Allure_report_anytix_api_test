@@ -1,0 +1,97 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 141000047 == 141000048\n  +141000047\n  -141000048",
+      "children" : [ {
+        "name" : "test_invalid_order_id",
+        "uid" : "2881e09c512483df",
+        "parentUid" : "5b16f27469cbd51f37895ddc86a9c7b8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647401768843,
+          "stop" : 1647401768946,
+          "duration" : 103
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5b16f27469cbd51f37895ddc86a9c7b8"
+    }, {
+      "name" : "AssertionError: assert 141000048 == 141000046\n  +141000048\n  -141000046",
+      "children" : [ {
+        "name" : "test_order_id_exist",
+        "uid" : "8016b530fc1f1ace",
+        "parentUid" : "26ec81200b3a13b736f717c838226b39",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647401769320,
+          "stop" : 1647401769424,
+          "duration" : 104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "26ec81200b3a13b736f717c838226b39"
+    }, {
+      "name" : "AssertionError: assert 141000048 == 141000053\n  +141000048\n  -141000053",
+      "children" : [ {
+        "name" : "test_unlock_asset_with_wrong_type_two",
+        "uid" : "c5d6817eadb144d6",
+        "parentUid" : "aff257e2c35457060578f2cbe813ca4e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1647401770812,
+          "stop" : 1647401770918,
+          "duration" : 106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aff257e2c35457060578f2cbe813ca4e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: third_part_fetch_tix() missing 1 required positional argument: 'ticket_id'",
+      "children" : [ {
+        "name" : "test_unlock_multiple_assets",
+        "uid" : "1f5f1114df7ae9e9",
+        "parentUid" : "90c8103a3bad3204259caef20b5422c1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647401771740,
+          "stop" : 1647401771740,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "90c8103a3bad3204259caef20b5422c1"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

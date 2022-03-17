@@ -1,0 +1,14 @@
+{"TixId": 3276, "OpenId": "2100036754571530240", "Mobile": "0920189403", "CountryCode": "+886", "OrderID": "02d362fb-4401-4695-92c2-da4f7dba35cc"}
+{"ErrorCode":0,"Msg":"","Result":{"ExtensionParam":null,"TixCode":"05931de407ba55f26d3d5","Title_Tix":"CreateTix_GASH_QA","Title_SaleInfo":"title_type_5","ID_MemberTix":"3734863","ImgUrl":"https://images.unsplash.com/photo-1490365728022-deae76380607?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80m","OpenID":"2100036754571530240","ID_Campaign_Notify":null,"AssetID":3734863,"ID_FK_TixType":1}}
+asset_id = 3734863
+1647401769000
+order_id = 1647401769000
+1647401769000
+signature = b'l\x1a\x19\\\xf1\x1bP\xff\xce\xabz\xc0\x83\xd6t\xc0\xc6\x03\xea\xf3 \xbb\xf6,\t\xb0\xe1V\xcf\xbe\x8a\xe9'
+bBoZXPEbUP/Oq3rAg9Z0wMYD6vMgu/YsCbDhVs++iuk=
+{"ErrorCode":141000046,"Msg":"此OrderID已存在","Result":null}
+1647401769000
+signature = b'\xef\x0f\xee\x96\x0b\xf3GIw\xac\x0f\x86\x8a\xaa\xbb\xf6\xe1|\xc9t\xfb\xfe)\x1b_\x838L\x1c\x91\x9d\xd5'
+7w/ulgvzR0l3rA+Giqq79uF8yXT7/ikbX4M4TByRndU=
+0.108858
+{"ErrorCode":141000047,"Msg":"訂單不存在","Result":null}
