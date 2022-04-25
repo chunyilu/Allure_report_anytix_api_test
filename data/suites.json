@@ -2,178 +2,29 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "QA_AssetUnlock",
+    "name" : "_GASH_mall_pytest",
     "children" : [ {
-      "name" : "test_positive_case",
-      "uid" : "5e3cd58d17d3da72",
-      "parentUid" : "b94a28d762649da452d133f5463fd8e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647401768505,
-        "stop" : 1647401768647,
-        "duration" : 142
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test_invalid_order_id",
-      "uid" : "2881e09c512483df",
-      "parentUid" : "b94a28d762649da452d133f5463fd8e0",
-      "status" : "failed",
-      "time" : {
-        "start" : 1647401768843,
-        "stop" : 1647401768946,
-        "duration" : 103
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test_order_id_exist",
-      "uid" : "8016b530fc1f1ace",
-      "parentUid" : "b94a28d762649da452d133f5463fd8e0",
-      "status" : "failed",
-      "time" : {
-        "start" : 1647401769320,
-        "stop" : 1647401769424,
-        "duration" : 104
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test_not_exist_order_id",
-      "uid" : "a85a744f426212a",
-      "parentUid" : "b94a28d762649da452d133f5463fd8e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647401769613,
-        "stop" : 1647401769726,
-        "duration" : 113
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test_unlock_asset_with_wrong_open_id",
-      "uid" : "ae3c2e7f9b319f48",
-      "parentUid" : "b94a28d762649da452d133f5463fd8e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647401770215,
-        "stop" : 1647401770304,
-        "duration" : 89
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test_unlock_asset_with_wrong_type_three",
-      "uid" : "b8e311ee5948f5f6",
-      "parentUid" : "b94a28d762649da452d133f5463fd8e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647401770524,
-        "stop" : 1647401770617,
-        "duration" : 93
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test_unlock_asset_with_wrong_type_two",
-      "uid" : "c5d6817eadb144d6",
-      "parentUid" : "b94a28d762649da452d133f5463fd8e0",
-      "status" : "failed",
-      "time" : {
-        "start" : 1647401770812,
-        "stop" : 1647401770918,
-        "duration" : 106
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test_unlock_asset_with_wrong_type_one",
-      "uid" : "fc0e39a2f65cd24a",
-      "parentUid" : "b94a28d762649da452d133f5463fd8e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647401771139,
-        "stop" : 1647401771255,
-        "duration" : 116
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test_invalid_unlock_type",
-      "uid" : "4356549b6d6b7c43",
-      "parentUid" : "b94a28d762649da452d133f5463fd8e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1647401771463,
-        "stop" : 1647401771546,
-        "duration" : 83
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test_unlock_multiple_assets",
-      "uid" : "1f5f1114df7ae9e9",
-      "parentUid" : "b94a28d762649da452d133f5463fd8e0",
-      "status" : "broken",
-      "time" : {
-        "start" : 1647401771740,
-        "stop" : 1647401771740,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 0,
-      "retriesStatusChange" : false,
-      "parameters" : [ ]
+      "name" : "GASH_mall_index_page_drop_down_menu",
+      "children" : [ {
+        "name" : "test_verify_index_page_header_element_id1_drop_down_menu[https://ec.gashpoint.com/]",
+        "uid" : "fe4e60545feb7ccb",
+        "parentUid" : "e7870e95fa60c05bf4b6e140241c7a1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1650869363442,
+          "stop" : 1650869396630,
+          "duration" : 33188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'https://ec.gashpoint.com/'" ]
+      } ],
+      "uid" : "e7870e95fa60c05bf4b6e140241c7a1f"
     } ],
-    "uid" : "b94a28d762649da452d133f5463fd8e0"
+    "uid" : "4584b8fbe4f9faf1f3f112683b9721e9"
   } ]
 }

@@ -1,0 +1,60 @@
+{
+  "uid" : "fe4e60545feb7ccb",
+  "name" : "test_verify_index_page_header_element_id1_drop_down_menu[https://ec.gashpoint.com/]",
+  "fullName" : "_GASH_mall_pytest.GASH_mall_index_page_drop_down_menu#test_verify_index_page_header_element_id1_drop_down_menu",
+  "historyId" : "8ec23b30224601d4a8c355e576254e67",
+  "time" : {
+    "start" : 1650869363442,
+    "stop" : 1650869396630,
+    "duration" : 33188
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "_GASH_mall_pytest"
+  }, {
+    "name" : "suite",
+    "value" : "GASH_mall_index_page_drop_down_menu"
+  }, {
+    "name" : "host",
+    "value" : "c-qa-agent01"
+  }, {
+    "name" : "thread",
+    "value" : "4684-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "_GASH_mall_pytest.GASH_mall_index_page_drop_down_menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "url",
+    "value" : "'https://ec.gashpoint.com/'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe4e60545feb7ccb.json",
+  "parameterValues" : [ "'https://ec.gashpoint.com/'" ]
+}
